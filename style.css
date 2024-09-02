@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: #423e37 !important;
+}
+.text-primary {
+  color: #423e37 !important;
+}
+.bg-secondary,
+.btn-secondary {
+  background-color: #e3b23c !important;
+}
+.text-secondary {
+  color: #e3b23c !important;
+}
+.bg-light,
+.btn-light {
+  background-color: #edebd7 !important;
+}
+.text-light {
+  color: #edebd7 !important;
+}
+.nav-link,
+.nav-link:hover,
+.nav-link:active,
+.nav-link:visited {
+  color: #edebd7 !important;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #edebd7;
+}
+.active {
+  color: #edebd7 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #edebd7;
+}
+.carousel-inner .carousel-item {
+  max-height: 100%;
+}
+.carousel-inner .carousel-item p,
+.carousel-inner .carousel-item h5 {
+  text-shadow: 2px 2px 2px #000;
+}
+.carousel-caption {
+  background-color: #000;
+  opacity: 0.5;
+  bottom: 2.25rem !important;
+  padding: 10px;
+}
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #e3b23c;
+}
